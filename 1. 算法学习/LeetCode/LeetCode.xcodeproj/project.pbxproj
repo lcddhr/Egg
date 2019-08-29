@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4722626B2317EF5300D09FA5 /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722626A2317EF5300D09FA5 /* RemoveLinkedListElements.swift */; };
+		4722626D2317F1E700D09FA5 /* MergeKSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722626C2317F1E700D09FA5 /* MergeKSortedLists.swift */; };
 		476DBA602316728200600F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA5F2316728200600F08 /* AppDelegate.swift */; };
 		476DBA622316728200600F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA612316728200600F08 /* ViewController.swift */; };
 		476DBA652316728200600F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476DBA632316728200600F08 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4722626A2317EF5300D09FA5 /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
+		4722626C2317F1E700D09FA5 /* MergeKSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKSortedLists.swift; sourceTree = "<group>"; };
 		476DBA5C2316728200600F08 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476DBA5F2316728200600F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		476DBA612316728200600F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				476DBA73231672BC00600F08 /* LRUCache.swift */,
 				476DBA74231672BC00600F08 /* ReverseLinkedList.swift */,
 				476DBA772316805300600F08 /* MergeTwoSortedLists.swift */,
+				4722626A2317EF5300D09FA5 /* RemoveLinkedListElements.swift */,
+				4722626C2317F1E700D09FA5 /* MergeKSortedLists.swift */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				476DBA75231672BC00600F08 /* LRUCache.swift in Sources */,
+				4722626B2317EF5300D09FA5 /* RemoveLinkedListElements.swift in Sources */,
+				4722626D2317F1E700D09FA5 /* MergeKSortedLists.swift in Sources */,
 				476DBA76231672BC00600F08 /* ReverseLinkedList.swift in Sources */,
 				476DBA622316728200600F08 /* ViewController.swift in Sources */,
 				476DBA602316728200600F08 /* AppDelegate.swift in Sources */,
