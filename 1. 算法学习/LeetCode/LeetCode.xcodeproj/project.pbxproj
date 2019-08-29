@@ -14,6 +14,7 @@
 		476DBA6A2316728300600F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476DBA682316728300600F08 /* LaunchScreen.storyboard */; };
 		476DBA75231672BC00600F08 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA73231672BC00600F08 /* LRUCache.swift */; };
 		476DBA76231672BC00600F08 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA74231672BC00600F08 /* ReverseLinkedList.swift */; };
+		476DBA782316805300600F08 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA772316805300600F08 /* MergeTwoSortedLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		476DBA6B2316728300600F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		476DBA73231672BC00600F08 /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		476DBA74231672BC00600F08 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
+		476DBA772316805300600F08 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				476DBA73231672BC00600F08 /* LRUCache.swift */,
 				476DBA74231672BC00600F08 /* ReverseLinkedList.swift */,
+				476DBA772316805300600F08 /* MergeTwoSortedLists.swift */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				476DBA76231672BC00600F08 /* ReverseLinkedList.swift in Sources */,
 				476DBA622316728200600F08 /* ViewController.swift in Sources */,
 				476DBA602316728200600F08 /* AppDelegate.swift in Sources */,
+				476DBA782316805300600F08 /* MergeTwoSortedLists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
