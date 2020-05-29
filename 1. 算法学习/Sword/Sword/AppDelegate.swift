@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        SubTreeSolution.testHasSubTree()
 //        MirrorTreeSolution.testMirrorTree()
-        BFS.test()
+//        BFS.test()
+        SameTreeSolution.test()
         return true
     }
 
