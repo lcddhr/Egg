@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
 //        SubTreeSolution.testHasSubTree()
-        MirrorTreeSolution.testMirrorTree()
+//        MirrorTreeSolution.testMirrorTree()
+        BFS.test()
         return true
     }
 

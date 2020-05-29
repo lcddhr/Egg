@@ -16,6 +16,7 @@
 		471463882480ACFA005B34CB /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463872480ACFA005B34CB /* TreeNode.swift */; };
 		4714638B2480AD85005B34CB /* SubTreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714638A2480AD85005B34CB /* SubTreeSolution.swift */; };
 		471463902480C1CF005B34CB /* MirrorTreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714638F2480C1CF005B34CB /* MirrorTreeSolution.swift */; };
+		471463932480E0F7005B34CB /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463922480E0F7005B34CB /* BFS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		471463872480ACFA005B34CB /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		4714638A2480AD85005B34CB /* SubTreeSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTreeSolution.swift; sourceTree = "<group>"; };
 		4714638F2480C1CF005B34CB /* MirrorTreeSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTreeSolution.swift; sourceTree = "<group>"; };
+		471463922480E0F7005B34CB /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				471463872480ACFA005B34CB /* TreeNode.swift */,
+				471463912480E0DF005B34CB /* 树的层级遍历 */,
 				4714638E2480C1A5005B34CB /* 树的镜像 */,
 				471463892480AD52005B34CB /* 树的子结构 */,
 			);
@@ -98,6 +101,14 @@
 				4714638F2480C1CF005B34CB /* MirrorTreeSolution.swift */,
 			);
 			path = "树的镜像";
+			sourceTree = "<group>";
+		};
+		471463912480E0DF005B34CB /* 树的层级遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				471463922480E0F7005B34CB /* BFS.swift */,
+			);
+			path = "树的层级遍历";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				471463902480C1CF005B34CB /* MirrorTreeSolution.swift in Sources */,
 				4714638B2480AD85005B34CB /* SubTreeSolution.swift in Sources */,
 				471463882480ACFA005B34CB /* TreeNode.swift in Sources */,
+				471463932480E0F7005B34CB /* BFS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
