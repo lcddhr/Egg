@@ -15,6 +15,7 @@
 		4714637F2480A5C7005B34CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4714637D2480A5C7005B34CB /* LaunchScreen.storyboard */; };
 		471463882480ACFA005B34CB /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463872480ACFA005B34CB /* TreeNode.swift */; };
 		4714638B2480AD85005B34CB /* SubTreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714638A2480AD85005B34CB /* SubTreeSolution.swift */; };
+		471463902480C1CF005B34CB /* MirrorTreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714638F2480C1CF005B34CB /* MirrorTreeSolution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		471463802480A5C7005B34CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471463872480ACFA005B34CB /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		4714638A2480AD85005B34CB /* SubTreeSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTreeSolution.swift; sourceTree = "<group>"; };
+		4714638F2480C1CF005B34CB /* MirrorTreeSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTreeSolution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				471463872480ACFA005B34CB /* TreeNode.swift */,
+				4714638E2480C1A5005B34CB /* 树的镜像 */,
 				471463892480AD52005B34CB /* 树的子结构 */,
 			);
 			path = Tree;
@@ -87,6 +90,14 @@
 				4714638A2480AD85005B34CB /* SubTreeSolution.swift */,
 			);
 			path = "树的子结构";
+			sourceTree = "<group>";
+		};
+		4714638E2480C1A5005B34CB /* 树的镜像 */ = {
+			isa = PBXGroup;
+			children = (
+				4714638F2480C1CF005B34CB /* MirrorTreeSolution.swift */,
+			);
+			path = "树的镜像";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				471463772480A5C6005B34CB /* ViewController.swift in Sources */,
 				471463732480A5C6005B34CB /* AppDelegate.swift in Sources */,
 				471463752480A5C6005B34CB /* SceneDelegate.swift in Sources */,
+				471463902480C1CF005B34CB /* MirrorTreeSolution.swift in Sources */,
 				4714638B2480AD85005B34CB /* SubTreeSolution.swift in Sources */,
 				471463882480ACFA005B34CB /* TreeNode.swift in Sources */,
 			);

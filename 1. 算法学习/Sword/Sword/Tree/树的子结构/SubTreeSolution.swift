@@ -6,10 +6,10 @@
 //  Copyright © 2020 liuchendi. All rights reserved.
 //
 
+// 判定给定的树是否属于当前树的子结构
 import Foundation
 
 class SubTreeSolution {
-    
     
     // 判断子树是否相同
     static func isExistSubTree(root:TreeNode?, subRoot:TreeNode?) -> Bool {
