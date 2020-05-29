@@ -8,9 +8,9 @@
 
 import Foundation
 
-class MirrorTreeSolution {
+class SymmetricTreeSolution {
     
-    static func isMirror(root:TreeNode?) -> Bool{
+    static func isSymmetric(root:TreeNode?) -> Bool{
         guard let root = root else { return true }
         return compare(left: root.left, right: root.right)
     }
@@ -26,7 +26,7 @@ class MirrorTreeSolution {
     }
 }
 
-extension MirrorTreeSolution {
+extension SymmetricTreeSolution {
     
     static func testMirrorTree() {
         
@@ -37,11 +37,11 @@ extension MirrorTreeSolution {
         let node1 = TreeNode(value: 4, left: node6, right: node5)
         
         let rootNode = TreeNode(value: 10, left: node1, right: node4)
-        let result = isMirror(root: rootNode)
+        let result = isSymmetric(root: rootNode)
         if result {
-            debugPrint("是镜像")
+            debugPrint("是对称的")
         } else {
-            debugPrint("不是镜像")
+            debugPrint("不是对称")
         }
         
     }
