@@ -21,7 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        BFS.test()
 //        SameTreeSolution.test()
 //        TreeOrderSolution.printNode()
-        RebuildTreeSolution.test()
+//        RebuildTreeSolution.test()
+        
+        BSTKNode.test()
         return true
     }
 

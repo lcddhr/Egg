@@ -15,7 +15,8 @@ class SubTreeSolution {
     static func isExistSubTree(root:TreeNode?, subRoot:TreeNode?) -> Bool {
         guard let subRoot = subRoot else { return true }
         if root?.value != subRoot.value { return false }
-        return isExistSubTree(root: root?.left, subRoot: subRoot.left) && isExistSubTree(root: root?.right, subRoot: subRoot.right)
+        return isExistSubTree(root: root?.left, subRoot: subRoot.left) &&
+            isExistSubTree(root: root?.right, subRoot: subRoot.right)
     }
     
     // 判断是否含有子树

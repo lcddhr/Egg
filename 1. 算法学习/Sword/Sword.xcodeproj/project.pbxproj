@@ -20,6 +20,7 @@
 		471463962480EA66005B34CB /* SameTreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463952480EA66005B34CB /* SameTreeSolution.swift */; };
 		471463992480F9D5005B34CB /* RebuildTreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463982480F9D5005B34CB /* RebuildTreeSolution.swift */; };
 		4714639C2480FCE4005B34CB /* TreeOrderSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714639B2480FCE4005B34CB /* TreeOrderSolution.swift */; };
+		471463A02481FCF3005B34CB /* BSTKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714639F2481FCF3005B34CB /* BSTKNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		471463952480EA66005B34CB /* SameTreeSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTreeSolution.swift; sourceTree = "<group>"; };
 		471463982480F9D5005B34CB /* RebuildTreeSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildTreeSolution.swift; sourceTree = "<group>"; };
 		4714639B2480FCE4005B34CB /* TreeOrderSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeOrderSolution.swift; sourceTree = "<group>"; };
+		4714639F2481FCF3005B34CB /* BSTKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTKNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +89,9 @@
 			children = (
 				471463872480ACFA005B34CB /* TreeNode.swift */,
 				4714639A2480FC50005B34CB /* 前中后序遍历 */,
-				471463972480F9BA005B34CB /* 重建二叉树 */,
+				4714639D2481FC85005B34CB /* 二叉树 */,
 				471463942480EA2A005B34CB /* 树是否相同 */,
 				471463912480E0DF005B34CB /* 树的层级遍历 */,
-				4714638E2480C1A5005B34CB /* 对称二叉树 */,
 				471463892480AD52005B34CB /* 树的子结构 */,
 			);
 			path = Tree;
@@ -142,6 +143,24 @@
 				4714639B2480FCE4005B34CB /* TreeOrderSolution.swift */,
 			);
 			path = "前中后序遍历";
+			sourceTree = "<group>";
+		};
+		4714639D2481FC85005B34CB /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				4714639E2481FC9F005B34CB /* 二叉搜索树的第 K 个节点 */,
+				471463972480F9BA005B34CB /* 重建二叉树 */,
+				4714638E2480C1A5005B34CB /* 对称二叉树 */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		4714639E2481FC9F005B34CB /* 二叉搜索树的第 K 个节点 */ = {
+			isa = PBXGroup;
+			children = (
+				4714639F2481FCF3005B34CB /* BSTKNode.swift */,
+			);
+			path = "二叉搜索树的第 K 个节点";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +238,7 @@
 				4714639C2480FCE4005B34CB /* TreeOrderSolution.swift in Sources */,
 				471463732480A5C6005B34CB /* AppDelegate.swift in Sources */,
 				471463752480A5C6005B34CB /* SceneDelegate.swift in Sources */,
+				471463A02481FCF3005B34CB /* BSTKNode.swift in Sources */,
 				471463902480C1CF005B34CB /* SymmetricTreeSolution.swift in Sources */,
 				471463962480EA66005B34CB /* SameTreeSolution.swift in Sources */,
 				4714638B2480AD85005B34CB /* SubTreeSolution.swift in Sources */,
