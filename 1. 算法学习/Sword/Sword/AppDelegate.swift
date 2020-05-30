@@ -26,7 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        BST.testDeepth()
 //        BST.testValueInBST=()
 //        BST.testInsertNode()
-        BST.testDeleteNode()
+//        BST.testDeleteNode()
+//        MirrorTree.test()
+        MirrorTree.testByStack()
         return true
     }
 

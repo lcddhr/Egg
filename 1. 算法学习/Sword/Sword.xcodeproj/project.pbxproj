@@ -22,6 +22,9 @@
 		4714639C2480FCE4005B34CB /* TreeOrderSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714639B2480FCE4005B34CB /* TreeOrderSolution.swift */; };
 		471463A02481FCF3005B34CB /* BSTKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714639F2481FCF3005B34CB /* BSTKNode.swift */; };
 		471463A224820E05005B34CB /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463A124820E05005B34CB /* BST.swift */; };
+		471463A5248232A0005B34CB /* MirrorTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463A4248232A0005B34CB /* MirrorTree.swift */; };
+		471463A924823783005B34CB /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463A824823783005B34CB /* ListNode.swift */; };
+		471463AB24823830005B34CB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463AA24823830005B34CB /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		4714639B2480FCE4005B34CB /* TreeOrderSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeOrderSolution.swift; sourceTree = "<group>"; };
 		4714639F2481FCF3005B34CB /* BSTKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTKNode.swift; sourceTree = "<group>"; };
 		471463A124820E05005B34CB /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
+		471463A4248232A0005B34CB /* MirrorTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTree.swift; sourceTree = "<group>"; };
+		471463A824823783005B34CB /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		471463AA24823830005B34CB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 		471463712480A5C6005B34CB /* Sword */ = {
 			isa = PBXGroup;
 			children = (
+				471463A72482376B005B34CB /* List */,
+				471463A624823763005B34CB /* Stack */,
 				471463862480A5EE005B34CB /* Tree */,
 				471463722480A5C6005B34CB /* AppDelegate.swift */,
 				471463742480A5C6005B34CB /* SceneDelegate.swift */,
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				471463A124820E05005B34CB /* BST.swift */,
+				471463A3248231DC005B34CB /* 二叉树镜像 */,
 				4714639E2481FC9F005B34CB /* 二叉搜索树的第 K 个节点 */,
 				471463972480F9BA005B34CB /* 重建二叉树 */,
 				4714638E2480C1A5005B34CB /* 对称二叉树 */,
@@ -164,6 +173,30 @@
 				4714639F2481FCF3005B34CB /* BSTKNode.swift */,
 			);
 			path = "二叉搜索树的第 K 个节点";
+			sourceTree = "<group>";
+		};
+		471463A3248231DC005B34CB /* 二叉树镜像 */ = {
+			isa = PBXGroup;
+			children = (
+				471463A4248232A0005B34CB /* MirrorTree.swift */,
+			);
+			path = "二叉树镜像";
+			sourceTree = "<group>";
+		};
+		471463A624823763005B34CB /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				471463AA24823830005B34CB /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		471463A72482376B005B34CB /* List */ = {
+			isa = PBXGroup;
+			children = (
+				471463A824823783005B34CB /* ListNode.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +271,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				471463772480A5C6005B34CB /* ViewController.swift in Sources */,
+				471463AB24823830005B34CB /* Stack.swift in Sources */,
 				471463A224820E05005B34CB /* BST.swift in Sources */,
 				4714639C2480FCE4005B34CB /* TreeOrderSolution.swift in Sources */,
+				471463A5248232A0005B34CB /* MirrorTree.swift in Sources */,
 				471463732480A5C6005B34CB /* AppDelegate.swift in Sources */,
 				471463752480A5C6005B34CB /* SceneDelegate.swift in Sources */,
 				471463A02481FCF3005B34CB /* BSTKNode.swift in Sources */,
+				471463A924823783005B34CB /* ListNode.swift in Sources */,
 				471463902480C1CF005B34CB /* SymmetricTreeSolution.swift in Sources */,
 				471463962480EA66005B34CB /* SameTreeSolution.swift in Sources */,
 				4714638B2480AD85005B34CB /* SubTreeSolution.swift in Sources */,
