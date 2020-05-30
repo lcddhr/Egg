@@ -23,7 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        TreeOrderSolution.printNode()
 //        RebuildTreeSolution.test()
 //        BSTKNode.test()
-        BST.testDeepth()
+//        BST.testDeepth()
+//        BST.testValueInBST=()
+//        BST.testInsertNode()
+        BST.testDeleteNode()
         return true
     }
 
