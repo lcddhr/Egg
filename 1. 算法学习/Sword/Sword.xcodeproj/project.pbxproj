@@ -21,6 +21,7 @@
 		471463992480F9D5005B34CB /* RebuildTreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463982480F9D5005B34CB /* RebuildTreeSolution.swift */; };
 		4714639C2480FCE4005B34CB /* TreeOrderSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714639B2480FCE4005B34CB /* TreeOrderSolution.swift */; };
 		471463A02481FCF3005B34CB /* BSTKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714639F2481FCF3005B34CB /* BSTKNode.swift */; };
+		471463A224820E05005B34CB /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463A124820E05005B34CB /* BST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		471463982480F9D5005B34CB /* RebuildTreeSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildTreeSolution.swift; sourceTree = "<group>"; };
 		4714639B2480FCE4005B34CB /* TreeOrderSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeOrderSolution.swift; sourceTree = "<group>"; };
 		4714639F2481FCF3005B34CB /* BSTKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTKNode.swift; sourceTree = "<group>"; };
+		471463A124820E05005B34CB /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		4714639D2481FC85005B34CB /* 二叉树 */ = {
 			isa = PBXGroup;
 			children = (
+				471463A124820E05005B34CB /* BST.swift */,
 				4714639E2481FC9F005B34CB /* 二叉搜索树的第 K 个节点 */,
 				471463972480F9BA005B34CB /* 重建二叉树 */,
 				4714638E2480C1A5005B34CB /* 对称二叉树 */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				471463772480A5C6005B34CB /* ViewController.swift in Sources */,
+				471463A224820E05005B34CB /* BST.swift in Sources */,
 				4714639C2480FCE4005B34CB /* TreeOrderSolution.swift in Sources */,
 				471463732480A5C6005B34CB /* AppDelegate.swift in Sources */,
 				471463752480A5C6005B34CB /* SceneDelegate.swift in Sources */,
