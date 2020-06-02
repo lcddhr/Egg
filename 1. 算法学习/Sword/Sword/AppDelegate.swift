@@ -28,7 +28,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        BST.testInsertNode()
 //        BST.testDeleteNode()
 //        MirrorTree.test()
-        MirrorTree.testByStack()
+//        MirrorTree.testByStack()
+//        LRUArray<Int>.test()
+//        LRUList<Dictionary<Sring, String>>.test()
+        LRUList<Dictionary<String, String>>.test()
         return true
     }
 

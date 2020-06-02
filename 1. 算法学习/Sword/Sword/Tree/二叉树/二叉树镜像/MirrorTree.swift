@@ -40,7 +40,7 @@ class MirrorTree {
         
         while stack.count > 0 {
             if let node = stack.pop() {
-                var temp = node.left
+                let temp = node.left
                 node.left = node.right
                 node.right = temp
                 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4700850D2485F4DC004DADC5 /* LRUList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4700850C2485F4DC004DADC5 /* LRUList.swift */; };
 		471463732480A5C6005B34CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463722480A5C6005B34CB /* AppDelegate.swift */; };
 		471463752480A5C6005B34CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463742480A5C6005B34CB /* SceneDelegate.swift */; };
 		471463772480A5C6005B34CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463762480A5C6005B34CB /* ViewController.swift */; };
@@ -25,9 +26,11 @@
 		471463A5248232A0005B34CB /* MirrorTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463A4248232A0005B34CB /* MirrorTree.swift */; };
 		471463A924823783005B34CB /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463A824823783005B34CB /* ListNode.swift */; };
 		471463AB24823830005B34CB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463AA24823830005B34CB /* Stack.swift */; };
+		471463AF2485EFFB005B34CB /* LRUArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463AE2485EFFB005B34CB /* LRUArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4700850C2485F4DC004DADC5 /* LRUList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUList.swift; sourceTree = "<group>"; };
 		4714636F2480A5C6005B34CB /* Sword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		471463722480A5C6005B34CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		471463742480A5C6005B34CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		471463A4248232A0005B34CB /* MirrorTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTree.swift; sourceTree = "<group>"; };
 		471463A824823783005B34CB /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		471463AA24823830005B34CB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		471463AE2485EFFB005B34CB /* LRUArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		471463712480A5C6005B34CB /* Sword */ = {
 			isa = PBXGroup;
 			children = (
+				471463AC2485EFCF005B34CB /* Algorithm */,
 				471463A72482376B005B34CB /* List */,
 				471463A624823763005B34CB /* Stack */,
 				471463862480A5EE005B34CB /* Tree */,
@@ -199,6 +204,23 @@
 			path = List;
 			sourceTree = "<group>";
 		};
+		471463AC2485EFCF005B34CB /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				471463AD2485EFD6005B34CB /* LRU */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		471463AD2485EFD6005B34CB /* LRU */ = {
+			isa = PBXGroup;
+			children = (
+				471463AE2485EFFB005B34CB /* LRUArray.swift */,
+				4700850C2485F4DC004DADC5 /* LRUList.swift */,
+			);
+			path = LRU;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,6 +299,7 @@
 				471463A5248232A0005B34CB /* MirrorTree.swift in Sources */,
 				471463732480A5C6005B34CB /* AppDelegate.swift in Sources */,
 				471463752480A5C6005B34CB /* SceneDelegate.swift in Sources */,
+				471463AF2485EFFB005B34CB /* LRUArray.swift in Sources */,
 				471463A02481FCF3005B34CB /* BSTKNode.swift in Sources */,
 				471463A924823783005B34CB /* ListNode.swift in Sources */,
 				471463902480C1CF005B34CB /* SymmetricTreeSolution.swift in Sources */,
@@ -285,6 +308,7 @@
 				471463882480ACFA005B34CB /* TreeNode.swift in Sources */,
 				471463932480E0F7005B34CB /* BFS.swift in Sources */,
 				471463992480F9D5005B34CB /* RebuildTreeSolution.swift in Sources */,
+				4700850D2485F4DC004DADC5 /* LRUList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

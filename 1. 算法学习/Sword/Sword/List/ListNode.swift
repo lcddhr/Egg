@@ -29,7 +29,8 @@ internal class List<T> {
     
     fileprivate var _head: ListNode<T>?
     fileprivate var _tail: ListNode<T>?
-    fileprivate(set) var count: Int = 0
+    
+    var count: Int = 0
     
     var head: ListNode<T>? {
         return _head
@@ -38,6 +39,7 @@ internal class List<T> {
     var tail: ListNode<T>? {
         return _tail
     }
+
     
     // node must be in the list
     func removeNode(_ node: ListNode<T>) {
@@ -124,6 +126,34 @@ internal class List<T> {
         assert(count == values.count)
         
         return values
+    }
+    
+    // 移除最后一个节点
+    func removeLast() {
+        guard let tail = tail else { return }
+        removeNode(tail)
+    }
+    
+    // 移动某个节点到头部
+    func moveToHead(node:ListNode<T>) {
+        
+        let pre = node.prev
+        let next = node.next
+        
+        // 删除当前节点
+        pre?.next  = next
+        next?.prev = pre
+        
+        // 当前节点插入的头部
+//        insertNode(node)
+        node.next = head
+        head?.prev = node
+        
+        _head = node
+        
+        if pre == nil { return }
+        if next == nil { _tail = pre }
+        
     }
 
     deinit {
