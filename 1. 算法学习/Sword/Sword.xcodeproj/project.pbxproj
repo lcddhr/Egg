@@ -27,6 +27,7 @@
 		471463A924823783005B34CB /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463A824823783005B34CB /* ListNode.swift */; };
 		471463AB24823830005B34CB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463AA24823830005B34CB /* Stack.swift */; };
 		471463AF2485EFFB005B34CB /* LRUArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463AE2485EFFB005B34CB /* LRUArray.swift */; };
+		474254C72487E65B004BFED3 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474254C62487E65B004BFED3 /* ReverseList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		471463A824823783005B34CB /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		471463AA24823830005B34CB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		471463AE2485EFFB005B34CB /* LRUArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUArray.swift; sourceTree = "<group>"; };
+		474254C62487E65B004BFED3 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				471463A824823783005B34CB /* ListNode.swift */,
+				474254C52487E62B004BFED3 /* 翻转链表 */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -219,6 +222,14 @@
 				4700850C2485F4DC004DADC5 /* LRUList.swift */,
 			);
 			path = LRU;
+			sourceTree = "<group>";
+		};
+		474254C52487E62B004BFED3 /* 翻转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				474254C62487E65B004BFED3 /* ReverseList.swift */,
+			);
+			path = "翻转链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474254C72487E65B004BFED3 /* ReverseList.swift in Sources */,
 				471463772480A5C6005B34CB /* ViewController.swift in Sources */,
 				471463AB24823830005B34CB /* Stack.swift in Sources */,
 				471463A224820E05005B34CB /* BST.swift in Sources */,

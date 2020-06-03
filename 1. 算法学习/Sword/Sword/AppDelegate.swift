@@ -31,7 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        MirrorTree.testByStack()
 //        LRUArray<Int>.test()
 //        LRUList<Dictionary<Sring, String>>.test()
-        LRUList<Dictionary<String, String>>.test()
+//        LRUList<Dictionary<String, String>>.test()
+        ReverseList<Int>.test()
         return true
     }
 
