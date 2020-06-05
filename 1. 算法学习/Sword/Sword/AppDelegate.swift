@@ -33,7 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        LRUList<Dictionary<Sring, String>>.test()
 //        LRUList<Dictionary<String, String>>.test()
 //        ReverseList<Int>.test()
-        BackwardsKNode<Int>.test()
+//        BackwardsKNode<Int>.test()
+        MergeList.test()
         return true
     }
 

@@ -33,13 +33,9 @@ extension ReverseList {
         
         let one = ListNode<Int>.buildData()
         
-        var result = ReverseList<Int>.reverse(root: one)
+        let result = ReverseList<Int>.reverse(root: one)
         
-        while result?.data != nil  {
-            print(result?.data)
-            result = result?.next
-        }
-        
+        ListNode.printNode(root: result)
     }
 }
 

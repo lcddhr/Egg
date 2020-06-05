@@ -29,6 +29,7 @@
 		471463AF2485EFFB005B34CB /* LRUArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463AE2485EFFB005B34CB /* LRUArray.swift */; };
 		474254C72487E65B004BFED3 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474254C62487E65B004BFED3 /* ReverseList.swift */; };
 		47425526248A2102004BFED3 /* BackwardsKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47425525248A2102004BFED3 /* BackwardsKNode.swift */; };
+		47425529248A295D004BFED3 /* MergeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47425528248A295D004BFED3 /* MergeList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		471463AE2485EFFB005B34CB /* LRUArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUArray.swift; sourceTree = "<group>"; };
 		474254C62487E65B004BFED3 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
 		47425525248A2102004BFED3 /* BackwardsKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsKNode.swift; sourceTree = "<group>"; };
+		47425528248A295D004BFED3 /* MergeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				471463A824823783005B34CB /* ListNode.swift */,
+				47425527248A291D004BFED3 /* 合并两个有序链表 */,
 				47425524248A20CA004BFED3 /* 链表中的倒数第k个节点 */,
 				474254C52487E62B004BFED3 /* 翻转链表 */,
 			);
@@ -241,6 +244,14 @@
 				47425525248A2102004BFED3 /* BackwardsKNode.swift */,
 			);
 			path = "链表中的倒数第k个节点";
+			sourceTree = "<group>";
+		};
+		47425527248A291D004BFED3 /* 合并两个有序链表 */ = {
+			isa = PBXGroup;
+			children = (
+				47425528248A295D004BFED3 /* MergeList.swift */,
+			);
+			path = "合并两个有序链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +335,7 @@
 				471463732480A5C6005B34CB /* AppDelegate.swift in Sources */,
 				471463752480A5C6005B34CB /* SceneDelegate.swift in Sources */,
 				471463AF2485EFFB005B34CB /* LRUArray.swift in Sources */,
+				47425529248A295D004BFED3 /* MergeList.swift in Sources */,
 				471463A02481FCF3005B34CB /* BSTKNode.swift in Sources */,
 				471463A924823783005B34CB /* ListNode.swift in Sources */,
 				471463902480C1CF005B34CB /* SymmetricTreeSolution.swift in Sources */,

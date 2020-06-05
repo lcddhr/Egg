@@ -180,4 +180,38 @@ extension ListNode {
         three.next = four
         return one
     }
+    
+    static func buildData1() -> ListNode<Int> {
+        let one = ListNode<Int>(data: 8, prev: nil, next: nil)
+        let two = ListNode<Int>(data: 6, prev: nil, next: nil)
+        let three = ListNode<Int>(data: 9, prev: nil, next: nil)
+        let four  = ListNode<Int>(data: 3, prev: nil, next: nil)
+
+        one.next = two
+        two.next = three
+        three.next = four
+        return one
+    }
+    
+    
+    static func buildData2() -> ListNode<Int> {
+    
+       let one = ListNode<Int>(data: 5, prev: nil, next: nil)
+       let two = ListNode<Int>(data: 2, prev: nil, next: nil)
+       let three = ListNode<Int>(data: 4, prev: nil, next: nil)
+       let four  = ListNode<Int>(data: 10, prev: nil, next: nil)
+
+       one.next = two
+       two.next = three
+       three.next = four
+       return one
+    }
+    
+    static func printNode(root:ListNode?) {
+        var result = root
+        while result?.data != nil  {
+            print(result?.data)
+            result = result?.next
+        }
+    }
 }
