@@ -165,3 +165,19 @@ internal class List<T> {
         }
     }
 }
+
+
+extension ListNode {
+    
+    static func buildData() -> ListNode<Int> {
+        let one = ListNode<Int>(data: 1, prev: nil, next: nil)
+        let two = ListNode<Int>(data: 2, prev: nil, next: nil)
+        let three = ListNode<Int>(data: 3, prev: nil, next: nil)
+        let four  = ListNode<Int>(data: 4, prev: nil, next: nil)
+
+        one.next = two
+        two.next = three
+        three.next = four
+        return one
+    }
+}

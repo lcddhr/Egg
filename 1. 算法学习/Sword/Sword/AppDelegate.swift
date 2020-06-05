@@ -32,7 +32,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        LRUArray<Int>.test()
 //        LRUList<Dictionary<Sring, String>>.test()
 //        LRUList<Dictionary<String, String>>.test()
-        ReverseList<Int>.test()
+//        ReverseList<Int>.test()
+        BackwardsKNode<Int>.test()
         return true
     }
 

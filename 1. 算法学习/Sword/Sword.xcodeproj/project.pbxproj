@@ -28,6 +28,7 @@
 		471463AB24823830005B34CB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463AA24823830005B34CB /* Stack.swift */; };
 		471463AF2485EFFB005B34CB /* LRUArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471463AE2485EFFB005B34CB /* LRUArray.swift */; };
 		474254C72487E65B004BFED3 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474254C62487E65B004BFED3 /* ReverseList.swift */; };
+		47425526248A2102004BFED3 /* BackwardsKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47425525248A2102004BFED3 /* BackwardsKNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		471463AA24823830005B34CB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		471463AE2485EFFB005B34CB /* LRUArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUArray.swift; sourceTree = "<group>"; };
 		474254C62487E65B004BFED3 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
+		47425525248A2102004BFED3 /* BackwardsKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsKNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				471463A824823783005B34CB /* ListNode.swift */,
+				47425524248A20CA004BFED3 /* 链表中的倒数第k个节点 */,
 				474254C52487E62B004BFED3 /* 翻转链表 */,
 			);
 			path = List;
@@ -230,6 +233,14 @@
 				474254C62487E65B004BFED3 /* ReverseList.swift */,
 			);
 			path = "翻转链表";
+			sourceTree = "<group>";
+		};
+		47425524248A20CA004BFED3 /* 链表中的倒数第k个节点 */ = {
+			isa = PBXGroup;
+			children = (
+				47425525248A2102004BFED3 /* BackwardsKNode.swift */,
+			);
+			path = "链表中的倒数第k个节点";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +320,7 @@
 				471463A224820E05005B34CB /* BST.swift in Sources */,
 				4714639C2480FCE4005B34CB /* TreeOrderSolution.swift in Sources */,
 				471463A5248232A0005B34CB /* MirrorTree.swift in Sources */,
+				47425526248A2102004BFED3 /* BackwardsKNode.swift in Sources */,
 				471463732480A5C6005B34CB /* AppDelegate.swift in Sources */,
 				471463752480A5C6005B34CB /* SceneDelegate.swift in Sources */,
 				471463AF2485EFFB005B34CB /* LRUArray.swift in Sources */,

@@ -30,14 +30,8 @@ class ReverseList<T> {
 extension ReverseList {
     
     static func test() {
-        let one = ListNode(data: 1, prev: nil, next: nil)
-        let two = ListNode(data: 2, prev: nil, next: nil)
-        let three = ListNode(data: 3, prev: nil, next: nil)
-        let four  = ListNode(data: 4, prev: nil, next: nil)
         
-        one.next = two
-        two.next = three
-        three.next = four
+        let one = ListNode<Int>.buildData()
         
         var result = ReverseList<Int>.reverse(root: one)
         
