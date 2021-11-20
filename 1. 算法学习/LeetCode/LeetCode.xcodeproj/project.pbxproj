@@ -19,6 +19,8 @@
 		476DBA782316805300600F08 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA772316805300600F08 /* MergeTwoSortedLists.swift */; };
 		47CE18DD2748D72B00F35C0F /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE18DC2748D72B00F35C0F /* TreeNode.swift */; };
 		47CE18E02748D77C00F35C0F /* inorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE18DF2748D77C00F35C0F /* inorderTraversal.swift */; };
+		47CE18E22748DE9900F35C0F /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE18E12748DE9900F35C0F /* MaxDepth.swift */; };
+		47CE18E42748E6D100F35C0F /* SortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE18E32748E6D100F35C0F /* SortedArrayToBST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		476DBA772316805300600F08 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		47CE18DC2748D72B00F35C0F /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		47CE18DF2748D77C00F35C0F /* inorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inorderTraversal.swift; sourceTree = "<group>"; };
+		47CE18E12748DE9900F35C0F /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
+		47CE18E32748E6D100F35C0F /* SortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArrayToBST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				47CE18DF2748D77C00F35C0F /* inorderTraversal.swift */,
+				47CE18E12748DE9900F35C0F /* MaxDepth.swift */,
+				47CE18E32748E6D100F35C0F /* SortedArrayToBST.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -190,6 +196,8 @@
 			files = (
 				476DBA75231672BC00600F08 /* LRUCache.swift in Sources */,
 				4722626B2317EF5300D09FA5 /* RemoveLinkedListElements.swift in Sources */,
+				47CE18E42748E6D100F35C0F /* SortedArrayToBST.swift in Sources */,
+				47CE18E22748DE9900F35C0F /* MaxDepth.swift in Sources */,
 				4722626D2317F1E700D09FA5 /* MergeKSortedLists.swift in Sources */,
 				476DBA76231672BC00600F08 /* ReverseLinkedList.swift in Sources */,
 				476DBA622316728200600F08 /* ViewController.swift in Sources */,

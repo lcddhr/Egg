@@ -22,3 +22,4 @@ func inorderTraversalRec(_ root: TreeNode? , list:inout Array<Int>) {
   list.append(root.val)
   inorderTraversalRec(root.right, list: &list)
 }
+
