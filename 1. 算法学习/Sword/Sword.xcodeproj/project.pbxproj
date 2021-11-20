@@ -30,6 +30,7 @@
 		474254C72487E65B004BFED3 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474254C62487E65B004BFED3 /* ReverseList.swift */; };
 		47425526248A2102004BFED3 /* BackwardsKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47425525248A2102004BFED3 /* BackwardsKNode.swift */; };
 		47425529248A295D004BFED3 /* MergeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47425528248A295D004BFED3 /* MergeList.swift */; };
+		47CE18DA27429CD100F35C0F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE18D927429CD100F35C0F /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		474254C62487E65B004BFED3 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
 		47425525248A2102004BFED3 /* BackwardsKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardsKNode.swift; sourceTree = "<group>"; };
 		47425528248A295D004BFED3 /* MergeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeList.swift; sourceTree = "<group>"; };
+		47CE18D927429CD100F35C0F /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		471463712480A5C6005B34CB /* Sword */ = {
 			isa = PBXGroup;
 			children = (
+				47CE18D827429CD100F35C0F /* Queue */,
 				471463AC2485EFCF005B34CB /* Algorithm */,
 				471463A72482376B005B34CB /* List */,
 				471463A624823763005B34CB /* Stack */,
@@ -254,6 +257,14 @@
 			path = "合并两个有序链表";
 			sourceTree = "<group>";
 		};
+		47CE18D827429CD100F35C0F /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				47CE18D927429CD100F35C0F /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				474254C72487E65B004BFED3 /* ReverseList.swift in Sources */,
+				47CE18DA27429CD100F35C0F /* Queue.swift in Sources */,
 				471463772480A5C6005B34CB /* ViewController.swift in Sources */,
 				471463AB24823830005B34CB /* Stack.swift in Sources */,
 				471463A224820E05005B34CB /* BST.swift in Sources */,

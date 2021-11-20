@@ -17,6 +17,8 @@
 		476DBA75231672BC00600F08 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA73231672BC00600F08 /* LRUCache.swift */; };
 		476DBA76231672BC00600F08 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA74231672BC00600F08 /* ReverseLinkedList.swift */; };
 		476DBA782316805300600F08 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA772316805300600F08 /* MergeTwoSortedLists.swift */; };
+		47CE18DD2748D72B00F35C0F /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE18DC2748D72B00F35C0F /* TreeNode.swift */; };
+		47CE18E02748D77C00F35C0F /* inorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE18DF2748D77C00F35C0F /* inorderTraversal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		476DBA73231672BC00600F08 /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		476DBA74231672BC00600F08 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		476DBA772316805300600F08 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		47CE18DC2748D72B00F35C0F /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		47CE18DF2748D77C00F35C0F /* inorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inorderTraversal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		476DBA5E2316728200600F08 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				47CE18DB2748D71700F35C0F /* Tree */,
 				476DBA72231672BC00600F08 /* LinkList */,
 				476DBA71231672BC00600F08 /* Sort */,
 				476DBA5F2316728200600F08 /* AppDelegate.swift */,
@@ -93,6 +98,23 @@
 				4722626C2317F1E700D09FA5 /* MergeKSortedLists.swift */,
 			);
 			path = LinkList;
+			sourceTree = "<group>";
+		};
+		47CE18DB2748D71700F35C0F /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				47CE18DC2748D72B00F35C0F /* TreeNode.swift */,
+				47CE18DE2748D75C00F35C0F /* 二叉树 */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		47CE18DE2748D75C00F35C0F /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				47CE18DF2748D77C00F35C0F /* inorderTraversal.swift */,
+			);
+			path = "二叉树";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +195,8 @@
 				476DBA622316728200600F08 /* ViewController.swift in Sources */,
 				476DBA602316728200600F08 /* AppDelegate.swift in Sources */,
 				476DBA782316805300600F08 /* MergeTwoSortedLists.swift in Sources */,
+				47CE18DD2748D72B00F35C0F /* TreeNode.swift in Sources */,
+				47CE18E02748D77C00F35C0F /* inorderTraversal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

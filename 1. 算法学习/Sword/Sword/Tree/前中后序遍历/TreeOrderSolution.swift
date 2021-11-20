@@ -48,4 +48,17 @@ extension TreeOrderSolution {
         print(" ------ 后序遍历 -------")
         laterOrder(root: root)
     }
+    
+    
+    func inorderTraversal(_ root: TreeNode?) -> [Int] {
+        var list = Array<Int>()
+        inorderTraversalRec(root, list: &list)
+        return list
+    }
+    func inorderTraversalRec(_ root:TreeNode?, list:inout Array<Int>) {
+        guard let root = root else { return }
+        inorderTraversalRec(root.left, list:&list)
+        list.append(root.value)
+        inorderTraversalRec(root, list: &list)
+    }
 }
